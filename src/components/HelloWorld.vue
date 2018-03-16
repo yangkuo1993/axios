@@ -42,7 +42,7 @@ export default {
         method: 'post',
         url: 'https://cnodejs.org/api/v1/topics',
         data: {
-          page: 5,
+          page: 1,
           limit: 8
         },
         transformRequest: [function (data) {
